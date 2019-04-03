@@ -1,0 +1,301 @@
+body{
+    margin: 0;
+    padding : 0;
+}
+.navBar{
+    width: 100%;
+    height: 80px;
+    background-color: #360836
+}
+.navBar ul{
+    text-align: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    line-height: 80px
+}
+.navBar ul li{
+    display: inline-block;
+    margin-left: 15px
+}
+.navBar ul li a{
+    color: #ff0048;
+    text-decoration: none;
+}
+.navBar ul li a.active , .navBar ul li a:hover {
+    color: #fff;
+}
+/* *********************** */ 
+.header{
+    width: 100%;
+    height: 478px;
+    background: url(../img/slider_image1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding-top:  80px;
+    color: #fff;
+}
+.header .folk h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 50px;
+    font-weight: 600;
+    font-style: italic;
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+    letter-spacing: 5px  
+}
+.header .folk h1 span{
+    font-family : Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+}
+.header .folk p{
+    letter-spacing: 15px;
+    text-transform: capitalize;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+}
+.header .dream{
+    margin-top: 100px;
+    font-size: 20px;
+    line-height: 1.3;
+    letter-spacing: 2px;
+}
+.header .bolit ul{
+    width: 50px;
+    margin: auto;
+    margin-top: 55px;
+}
+.header .work{
+    margin-top: 60px;
+    position: relative;
+}
+.header button{
+    color: #fff;
+    padding: 15px;
+    background-color: #ff0048;
+    letter-spacing: 5px;
+    border: none;
+    cursor: pointer;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.header .work:after{
+    content: "";
+    border-top: 20px solid #ff0048;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-left: 20px solid transparent;
+    position: absolute;
+    bottom: -39px;
+    right: 654px;
+}
+
+/* ****************** */ 
+.images{
+    width: 100%;
+}
+.images .img{
+    width: 25%;
+    height: 215px;   
+    float: left;
+    background-repeat: no-repeat;
+}
+.images .i_1{
+    background: url(../img/acropora.jpg);
+}
+.images .i_2{
+    background: url(../img/1523453413099-370x215.jpg);
+}
+.images .i_3{
+    background: url(../img/45646545645-8-370x215.jpg);
+}
+.images .i_4{
+    background: url(../img/DSC_0196_edit.jpg);
+}
+.images .i_5{
+    background: url(../img/Mock-news-item-small.jpg);
+}
+.images .i_6{
+    background: url(../img/c1446a9c3feec68e0e2cf962d1465381-370x215.png);
+}
+.images .i_7{
+    background: url(../img/dual-sun-planet.jpg);
+}
+.images .i_8{
+    background: url(../img/earth-moon-nasa-astronomy-earthrise-370x215-wallpaper.jpg);
+}
+.images .i_9{
+    background: url(../img/health_leadership.jpg);
+}
+.images .i_10{
+    background: url(../img/images.jpg);
+}
+.images .i_11{
+    background: url(../img/slider_image1.jpg);
+}
+.images .i_12{
+    background: url(../img/video-games-switzerland-web-hero-zero-browser-370x215-wallpaper.jpg);
+}
+
+.images .img .over{
+    width: 100%;
+    height: 100%;
+    background : rgba(0, 0 , 0 , .5); 
+    opacity: 0;
+}
+.images .img:hover .over{
+    opacity: 1;
+}
+/* ***************************** */
+.clear{
+    clear: both;
+}
+
+.header-folk{
+    position: relative;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    background-color: #f5f5ff
+}
+.header-folk .header-top{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 50px;
+    background-color: #ff0048;
+    text-align: center;
+    color: #fff;
+    letter-spacing: 3px;
+}
+.header-folk .header-top::after{
+    content: "";
+    border-top: 20px solid #ff0048;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-left: 20px solid transparent;
+    position: absolute;
+    bottom: -39px;
+    right: 654px;
+}
+.meet h2{
+    margin: 0;
+    padding: 120px 0 55px 0;
+    color: #ff0048;
+    margin-bottom: 0
+}
+.meet-img{
+    display: inline-block;
+    margin-top: 20px
+}
+.meet-img img{
+    width: 350px;
+    height: 350px;
+}
+.meet-img h2{
+    margin: 10px 0 0 0;
+    color: #ff0048;
+    letter-spacing: 3px;
+    font-size: 25px;
+}
+.meet-img p{
+    margin: 4px;
+    color: #9c9c9c;
+    font-size: 18px; 
+}
+.btnn{
+    background-color: black;
+    color: #fff;
+    letter-spacing: 1px;
+    border: none;
+    margin: 40px auto;
+    padding: 10px 60px;
+    text-transform: uppercase;
+    cursor: pointer
+}
+/* ************************** */
+.Our{
+    width: 100%;
+    height: auto;
+    background: url("../img/persons/slide_02.jpg") no-repeat;
+    background-size: cover;
+    padding-top: 80px;
+    color: #9c9c9c;
+    text-align: center;
+    position: relative;
+}
+.Our h2{
+    margin: 0;
+    padding: 0;
+    letter-spacing: 3px;
+    z-index: 9999
+}
+
+.content{
+    width: 400px;
+    margin: 0 20px 0 30px;
+    display: inline-block;
+}
+.content p{
+    line-height: 20px;
+    letter-spacing: .9px;
+    z-index: 9999;
+}
+div .polit{
+    z-index: 9999;
+    margin-right: 100px;
+    margin-bottom: 50px;
+}
+.polit span{
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: #fff;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin: 50px -34px 0 50px;
+}
+.button{
+    background-color: #fff;
+    color: #616161;
+    font-weight: 500;
+    font-size: 18px;
+}
+.pol{
+    text-align: center;
+}
+.pol span{
+    width: 20px;
+    height: 20px;
+    background-color: #360836;
+}
+/* *********************** */
+.footer{
+    padding: 3px 0;
+    text-align: center;
+    background-color: #d6d6d6;
+    color: #797474;
+    letter-spacing: 2px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
